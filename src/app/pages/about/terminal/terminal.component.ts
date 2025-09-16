@@ -26,7 +26,7 @@ export class TerminalComponent implements OnInit, AfterViewInit {
   predefinedCommands = [
     {
       command: 'whoami',
-      output: 'Rohith Reddy Depa, Full Stack & Cloud Engineer',
+      output: 'Nitish Dadapuram, Full Stack & Cloud Engineer',
     },
     {
       command: 'cat skills.txt',
@@ -38,7 +38,7 @@ export class TerminalComponent implements OnInit, AfterViewInit {
       output:
         'school-management, isp-messaging-system, txdot-defect-detection, portfolio-site',
     },
-    { command: 'pwd', output: '/home/rohith/portfolio' },
+    { command: 'pwd', output: '/home/nitish/portfolio' },
     {
       command: 'help',
       output:
@@ -93,7 +93,7 @@ export class TerminalComponent implements OnInit, AfterViewInit {
 
     switch (cmd) {
       case 'whoami':
-        output = 'Rohith Reddy Depa, Full Stack & Cloud Engineer';
+        output = 'Nitish Dadapuram, Full Stack & Cloud Engineer';
         break;
 
       case 'motivation':
@@ -123,7 +123,7 @@ export class TerminalComponent implements OnInit, AfterViewInit {
           'Built Angular + Spring Boot apps | Redis Caching | PostgreSQL + AWS RDS | CloudWatch monitoring';
         break;
 
-      case 'cat experience/opentext.txt':
+      case 'cat experience/hpe.txt':
         output =
           'React + Node.js | Redis, Redux, SSR | AWS Glue ETL | Jenkins + Docker + Kubernetes';
         break;
@@ -170,15 +170,15 @@ export class TerminalComponent implements OnInit, AfterViewInit {
       case 'cat education.txt':
         output =
           'M.S. in Computer Science – University of Houston (2023–2025)\n' +
-          'B.Tech in Computer Science – JNTU Hyderabad (2018–2022)';
+          'B.Tech in Computer Science – Nit Andhra Pradesh (2018–2022)';
         break;
 
       case 'open linkedin':
-        output = 'Opening https://linkedin.com/in/rohithreddydepa';
+        output = 'Opening https://linkedin.com/in/nitishd';
         break;
 
       case 'open github':
-        output = 'Opening https://github.com/rohithreddydepa';
+        output = 'Opening https://github.com/nitishdadapuram10';
         break;
 
       case 'open portfolio':
@@ -194,7 +194,7 @@ export class TerminalComponent implements OnInit, AfterViewInit {
         break;
 
       case 'pwd':
-        output = '/home/rohith/portfolio';
+        output = '/home/nitish/portfolio';
         break;
 
       case 'clear':
